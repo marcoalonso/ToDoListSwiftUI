@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C405E692A3375210051255E /* ListaPendientesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C405E682A3375210051255E /* ListaPendientesApp.swift */; };
-		6C405E6B2A3375210051255E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C405E6A2A3375210051255E /* ContentView.swift */; };
+		6C405E6B2A3375210051255E /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C405E6A2A3375210051255E /* TaskListView.swift */; };
 		6C405E6D2A3375230051255E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C405E6C2A3375230051255E /* Assets.xcassets */; };
 		6C405E702A3375230051255E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C405E6F2A3375230051255E /* Preview Assets.xcassets */; };
 		6C405E722A3375230051255E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C405E712A3375230051255E /* Persistence.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		6C405E652A3375210051255E /* ListaPendientes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaPendientes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C405E682A3375210051255E /* ListaPendientesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPendientesApp.swift; sourceTree = "<group>"; };
-		6C405E6A2A3375210051255E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C405E6A2A3375210051255E /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		6C405E6C2A3375230051255E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C405E6F2A3375230051255E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C405E712A3375230051255E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				6C405E682A3375210051255E /* ListaPendientesApp.swift */,
-				6C405E6A2A3375210051255E /* ContentView.swift */,
+				6C405E6A2A3375210051255E /* TaskListView.swift */,
 				6C405E6C2A3375230051255E /* Assets.xcassets */,
 				6C405E712A3375230051255E /* Persistence.swift */,
 				6C405E732A3375230051255E /* ListaPendientes.xcdatamodeld */,
@@ -145,7 +145,7 @@
 			files = (
 				6C405E752A3375230051255E /* ListaPendientes.xcdatamodeld in Sources */,
 				6C405E722A3375230051255E /* Persistence.swift in Sources */,
-				6C405E6B2A3375210051255E /* ContentView.swift in Sources */,
+				6C405E6B2A3375210051255E /* TaskListView.swift in Sources */,
 				6C405E692A3375210051255E /* ListaPendientesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
